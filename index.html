@@ -12,7 +12,7 @@
 <hr/>
 
 <h3><a href = "./public/movie-ranking.html">Movie Ranking Project</a></h3>
-<img src ="./goal.png"alt = Movie />
+<img src ="./assets/images/Movie Ranking.png"alt = Movie />
 
 
 <h3><a href ="../4.3 HTML Porfolio Project/public/birthday-invite.html">Birthday invite Project</a></h3>
@@ -27,3 +27,56 @@
 </body>
 </html>
  
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Style for the image grid container */
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Adjust the gap between images */
+            justify-content: center; /* Center the content horizontally */
+        }
+
+        /* Style for individual image items */
+        .image-item {
+            flex: 1; /* Allow images to grow and shrink equally */
+            max-width: 300px; /* Set a maximum width for the images */
+        }
+
+        /* Style for the images themselves */
+        .image-item img {
+            max-width: 100%; /* Ensure images don't exceed their container width */
+            height: auto; /* Maintain the image's aspect ratio */
+            display: block; /* Remove any extra spacing below inline images */
+        }
+    </style>
+    <title>Responsive Image Grid</title>
+</head>
+<body>
+    <div class="image-grid">
+        <!-- Image 1 -->
+        <div class="image-item">
+            <img src="../4.3 HTML Porfolio Project/goal.png" alt="Image 1">
+        </div>
+
+        <!-- Image 2 -->
+        <div class="image-item">
+            <img src="../4.3 HTML Porfolio Project/assets/images/Birthday.png" alt="Image 2">
+        </div>
+
+        <!-- Image 3 -->
+        <div class="image-item">
+            <img src="../4.3 HTML Porfolio Project/assets/images/Movie Ranking.png" alt="Image 3">
+        </div>
+
+        <!-- Add more images as needed -->
+    </div>
+</body>
+</html>
+
