@@ -1,4 +1,6 @@
 <!-- TODO 1: Create the HTML Boilerplate -->
+<!-- New Concepts are Included in here do Check it out-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,22 +8,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rahul</title>
 </head>
+
 <body>
+ <header>
     <h1> Padmaarajan Portfolio </h1>
 <h2>I'm a Web Designer</h2>
+
+ </header>  
+
 <hr/>
 
+<main>
+
 <h3><a href = "./public/movie-ranking.html">Movie Ranking Project</a></h3>
-<img src ="./assets/images/Movie Ranking.png"alt = Movie />
+<img src ="./assets/images/Movie Ranking.png"alt = "Movie" title = "Learning HTML5" width= 832 height = 448 loading="eager"/>
+<!-- So This "Titile" Will Create Words when clicking or curser over the Respecetive Image -->
+<!-- Width is used to Adjust the Pixels of the Image -->
+
+<hr>
+<!-- Here I am going to give 5 lines of break or large space by (br*10)--> 
+<br><br><br><br><br> 
 
 
 <h3><a href ="./public/birthday-invite.html">Birthday invite Project</a></h3>
-<img src="./assets/images/Birthday.png"alt = Birthday Invite />
+<img src="./assets/images/Birthday.png"alt = Birthday Invite loading="lazy" />
+<!-- "Lazy" = Loading is used to load the page quickly      {loading="Lazy"}-->
 
+
+
+<br>
 <hr/>
+
 <h3><a href ="./public/about.html"> About Me</a></h3>
 <h3><a href ="./public/contact.html"> Contact Details</a></h3>
 
 </body>
 </html>
- 
+
+</main>
+
+
+<hr/>
+
+
+ <!-- New Concept called Figure and figcaption on under the Image-->
+
+ <figure>
+
+    
+ <a href = "./assets/images/padmaarajan.jpg">
+<img src ="./assets/images/padmaarajan.jpg" width = "200" height = 200 loading="lazy" title = "Owner" />
+</a>
+
+<figcaption>
+   Padmaarajan
+</figcaption>
+
+
+</figure>
+
+<!--Finally Check this Index file on Validator.w3.org For Checking no error in Your Code-->
+
+<aside>  
+ <details>
+   <summary>
+    Guess my <mark> Second Name 
+    </mark>
+   </summary>
+    <p>It is Rahul</p>
+ </details>
+</aside>
+
